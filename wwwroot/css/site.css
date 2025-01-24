@@ -169,11 +169,11 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
-/*    width: 100%;
+    width: 100%;
     margin-left: 2px;
     background-color: #b5d3b5;
 
-*/
+
 }
 
 .section__pic-container {
@@ -329,9 +329,9 @@ section {
 
 #experience {
     position: relative;
- /*   width: 100%;
+    width: 100%;
     margin-left: 2px;
-    background-color: #b5d3b5;*/
+    background-color: #b5d3b5;
 }
 
 .experience-sub-title {
@@ -400,7 +400,6 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
     width: 100%;
     margin-left: 2px;
     background-color: #b5d3b5;
