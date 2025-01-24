@@ -169,15 +169,17 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
-    width: 100%;
+/*    width: 100%;
     margin-left: 2px;
     background-color: #b5d3b5;
+
+*/
 }
 
 .section__pic-container {
     display: flex;
     height: 400px;
-    width: 500px;
+    width: 400px;
     margin: auto 0;
 }
 
@@ -269,7 +271,8 @@ section {
 /* ABOUT SECTION */
 
 #about {
-    position: relative;
+ position: relative;
+
 }
 
 .about-containers {
@@ -287,9 +290,9 @@ section {
 .about-details-container {
     display: flex;
 }
-.profile-pic {
+/*.profile-pic {
     border-radius: 20rem;
-}
+}*/
 
 .about-pic {
     border-radius: 20rem;
@@ -326,9 +329,9 @@ section {
 
 #experience {
     position: relative;
-    width: 100%;
+ /*   width: 100%;
     margin-left: 2px;
-    background-color: #b5d3b5;
+    background-color: #b5d3b5;*/
 }
 
 .experience-sub-title {
