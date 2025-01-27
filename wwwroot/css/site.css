@@ -9,6 +9,9 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    height: 100%;
+    overflow: auto;
+    background-color: #b5d3b5;
 }
 
 html {
@@ -151,8 +154,8 @@ a {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
+/*    height: 60vh;
+    margin: 0 10rem;*/
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -165,15 +168,10 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-    display: flex;
+    position: relative;
     justify-content: center;
     gap: 5rem;
-    margin-left: 2px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #b5d3b5;
+    margin-left: 10px;
 }
 
 .section__pic-container {
@@ -400,9 +398,8 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-size: auto 50%;
     margin-left: 2px;
-    background-color: #b5d3b5;
+
 }
 
 .contact-info-upper-container {
