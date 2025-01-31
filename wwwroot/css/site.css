@@ -333,6 +333,9 @@ footer {
         .about-container {
             flex-direction: column;
         }
+        .experience-info {
+            flex-direction: column;
+        }
         p a {
             padding: 1rem 2rem;
             font-size: 1.8rem;
